@@ -90,7 +90,7 @@ let tripCost60 = tripGallons60*fuelCost;
 let tripCost75 = tripGallons75*fuelCost;
 
 console.log(
-`At 55mph, the trip will cost ${tripCost55} dollars
-At 60mph, the trip will cost ${tripCost60} dollars
-At 75mph, the trip will cost ${tripCost75} dollars`
+`At 55mph, the trip will cost ${Number.parseFloat(tripCost55).toFixed(2)} dollars
+At 60mph, the trip will cost ${Number.parseFloat(tripCost60).toFixed(2)} dollars
+At 75mph, the trip will cost ${Number.parseFloat(tripCost75).toFixed(2)} dollars`
 );
